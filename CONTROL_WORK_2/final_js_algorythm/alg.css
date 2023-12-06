@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'DIENASTY';
+    src: local('DIENASTY'),
+        url(./fonts/DIENASTY.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'NunitoSans_7pt-Regular';
+    src: local('NunitoSans_7pt-Regular'), url(fonts/NunitoSans_7pt-Regular.ttf) format('truetype');
+}
+
+.page_alg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alg {
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    color: white;
+    font-family: 'NunitoSans_7pt-Regular';
+    padding: 5px;
+    border-style: solid;
+    border-color:#d20707;
+    border-width: 10px;
+
+    
+}
+
+.find_x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.font_settings_alg {
+    font-family: 'DIENASTY';
+    font-size: 80px;
+    color: #fff;
+}

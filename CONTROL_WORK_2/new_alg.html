@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи</title>
+    <link rel="stylesheet" href="main2.css">
+    <link rel="stylesheet" href="final_js_algorythm/alg.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./images/star.png">
+    <link rel="stylesheet" href="css_help_me.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header_inner">
+            <div class="kiss_logo"><img src="images/kiss_logo_png.png" alt="kiss-logo" height="40px"></div>
+        </div>
+    </header>
+    <!-- основная часть -->
+
+
+
+    <div class="wrapper">
+        <div class="menu" id="menu">
+            <a title="menu" href="#" class="menu_btn" id="menu_btn"><img width="30px"
+                    src="images/paul_stanley_infografics.png"></a>
+            <nav class="menu_list">
+                <h1 class="menu_heading">MENU</h1><br>
+                <a href="#">
+                    Main Page</a>
+                <a href="#">Original Members</a>
+                <a href="new_alb.html">
+                    Albums</a>
+                <a href="">Photos</a>
+                <a href="#">Funny Videos</a><br>
+                <a href="new_alg.html#zakladka"> <img height="16px" src="./images/molnia.png" alt=""><img class="red_dot" width="16px" src="images/red_dot.png" alt="red_dot">Math problems from
+                    kiss!</a>
+                <a href="kiss_form.html">kiss fan form</a>
+            </nav>
+        </div>
+
+
+
+        <div class="content algo">
+
+
+            <div class="page_alg">
+                <div class="alg">
+                    <form action="https://www.google.com/?hl=RU" method="get" id="form" target="_blank">
+                        <a id="zakladka"></a>
+
+                        <div><input hidden name="q" value="search"></div>
+                        <div>
+                            <p></p>
+                            <div class="font_settings_alg find_x">FIND X</div>
+                            <p> Дано вещественное число A.<br>
+                                x = a<sup>4</sup>, при a < 10<br>
+                                    x=a при a> 61<br>
+                                    в противном случае x = a − sin(a<sup>2</sup>)<input hidden name="formulation"
+                                        value="вычислить Х при заданном условии"></p>
+                        </div>
+
+                        <div>a = <input class="input only_kiss_font" id="a" name="a" type="number" step="0.00001"></div><br>
+
+                        <div><input class="button" id="count" type="button" value="result"></div>
+
+                        <p id="result"> x = </p>
+
+                        <div><input id="x" name="x" type="number" step="0.00001" value="0" hidden></div>
+
+
+                        <button class="button" id="send">send</button>
+                        <p></p>
+                    </form>
+                </div>
+            </div>
+
+            <script src="./final_js_algorythm/code.js"></script>
+            <script src="script2.js"></script>
+</body>
+
+
+</html>
